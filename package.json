@@ -1,0 +1,27 @@
+{
+  "name": "fsm-engine-backoffice",
+  "version": "0.0.1",
+  "description": "A simple backoffice for the fsm-engine module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://moraispgsi@github.com/moraispgsi/fsm-engine-backoffice.git"
+  },
+  "author": "Ricardo Jose Horta Morais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moraispgsi/fsm-engine-backoffice/issues"
+  },
+  "homepage": "https://github.com/moraispgsi/fsm-engine-backoffice#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "body-parser": "^1.17.2",
+    "co": "^4.6.0",
+    "debug": "^2.6.8",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
+  }
+}
