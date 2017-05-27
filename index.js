@@ -3,9 +3,10 @@
  */
 
 let co = require("co");
+let request = require("request");
 
 co(function*(){
-    let host = "10.0.0.165:8081";
+    let host = process.env.FSM_ENGINE_RESTFUL_HOST;
     let ejs = require('ejs');
     let debug = require('debug')("backoffice");
     let express = require('express');
@@ -17,9 +18,9 @@ co(function*(){
     }));
     app.use(express.static('public'));
 
-    app.get('/backoffice/statemachines', function (req, res) {
+    app.get('/statemachines', function (req, res) {
         co(function*(){
-            debug("GET REQUEST: /backoffice/statemachines");
+            debug("GET REQUEST: /statemachines");
             ejs.renderFile("public/statemachines.ejs", null, null, function (err, html) {
                 if (err) {
                     res.sendStatus(400);
@@ -33,20 +34,32 @@ co(function*(){
         });
     });
 
-    app.get('/backoffice/statemachine', function (req, res) {
+    app.get('/statemachine', function (req, res) {
         co(function*(){
-            debug("GET REQUEST: /backoffice/statemachine");
-            let data = {
-                id: req.query.id,
-                fsm: JSON.stringify(yield engine.getFsmById(req.query.id))
-            };
-            ejs.renderFile("public/statemachine.ejs", data, null, function (err, html) {
-                if (err) {
-                    res.sendStatus(400);
+            debug("GET REQUEST: /statemachine");
+            request(host + "/getById", {id:req.query.id}, function(error, response, body){
+
+                if(error){
+                    debug("Error: " + error);
+                    res.json({error: error});
                     return;
                 }
-                res.send(html);
+
+                let data = {
+                    id: req.query.id,
+                    fsm: JSON.stringify(body)
+                };
+
+                ejs.renderFile("public/statemachine.ejs", data, null, function (err, html) {
+                    if (err) {
+                        res.sendStatus(400);
+                        return;
+                    }
+                    res.send(html);
+                });
+
             });
+
         }).then().catch((err)=> {
             console.log(err);
             res.json({error: err});
