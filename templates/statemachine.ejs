@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <%- include('views/header.ejs') %>
+    <style>
+        dt,dd {
+            width:auto !important;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar" data-background-color="white" data-active-color="danger">
+
+        <!--
+            Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+            Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+        -->
+
+        <div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="http://www.creative-tim.com" class="simple-text">
+                    Creative Tim
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li class="active">
+                    <a href="/statemachines">
+                        <i class="ti-panel"></i>
+                        <p>State Machines</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/versions">
+                        <i class="ti-panel"></i>
+                        <p>Versions</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/instances">
+                        <i class="ti-panel"></i>
+                        <p>Instances</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span>
+                        <span class="icon-bar bar3"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Finite-state machine</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <i class="ti-settings"></i>
+                                <p>Settings</p>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Information</h4>
+                                <!--<p class="category">24 Hours performance</p>-->
+                            </div>
+                            <div class="content">
+                                <div class="container-fluid">
+                                    <dl class="dl-horizontal">
+                                        <dt>id:</dt>
+                                        <dd><%= fsm.id %></dd>
+                                        <dt>name:</dt>
+                                        <dd><%= fsm.name %></dd>
+                                        <dt>createdAt:</dt>
+                                        <dd><%= fsm.createdAt %></dd>
+                                        <dt>updatedAt:</dt>
+                                        <dd><%= fsm.updatedAt %></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Take action</h4>
+                                <!--<p class="category">24 Hours performance</p>-->
+                            </div>
+                            <div class="content">
+                                <ul>
+                                    <% if(versions.length > 0 && versions[versions.length - 1].isSealed) { %>
+                                    <li><button class="btn-link" style="border: 0;margin: 0;padding: 0;" onclick="newVersion()">Create new version</button></li>
+                                    <% } %>
+                                    <li><a class="btn-link" style="color: darkgrey;">Go to last version</a></li>
+                                    <li><a class="btn-link" style="color: darkgrey;">Go to last sealed version</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Versions</h4>
+                                <!--<p class="category">24 Hours performance</p>-->
+                            </div>
+                                <div class="content">
+                                    <div class="steps">
+                                        <ul class="steps-container">
+                                            <% var count = 0;%>
+                                            <% for(var version of versions) { %>
+                                            <% count++; %>
+                                            <li style="width:<%= 100/versions.length %>%;" <% if(version.isSealed){ %>class="activated"<% } %>>
+                                                <div class="step"style="cursor: pointer;" onclick="window.location.href = 'version?id=<%= version.id %>>';">
+                                                    <div class="step-image"><span></span></div>
+                                                    <div class="step-current">Version<%= count %></div>
+                                                </div>
+                                            </li>
+                                            <% } %>
+                                        </ul>
+                                        <% if(versions.length > 0) { %>
+                                        <div class="step-bar" style="width: <%= versions[versions.length - 1].isSealed ?
+                                                100 : (versions.length-1)/versions.length * 100 %>%;"></div>
+                                        <% } %>
+                                    </div>
+                                    <div class="footer">
+                                        <hr>
+                                        <div class="stats">
+                                           Select the version for detailed view
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%- include('views/footer.ejs') %>
+        <script>
+
+            var opts = {
+                lines: 13 // The number of lines to draw
+                , length: 28 // The length of each line
+                , width: 14 // The line thickness
+                , radius: 42 // The radius of the inner circle
+                , scale: 1 // Scales overall size of the spinner
+                , corners: 1 // Corner roundness (0..1)
+                , color: '#000' // #rgb or #rrggbb or array of colors
+                , opacity: 0.25 // Opacity of the lines
+                , rotate: 0 // The rotation offset
+                , direction: 1 // 1: clockwise, -1: counterclockwise
+                , speed: 1 // Rounds per second
+                , trail: 60 // Afterglow percentage
+                , fps: 20 // Frames per second when using setTimeout() as a fallback for CSS
+                , zIndex: 2e9 // The z-index (defaults to 2000000000)
+                , className: 'spinner' // The CSS class to assign to the spinner
+                , top: '50%' // Top position relative to parent
+                , left: '50%' // Left position relative to parent
+                , shadow: false // Whether to render a shadow
+                , hwaccel: false // Whether to use hardware acceleration
+                , position: 'absolute' // Element positioning
+            }
+            function newVersion(){
+
+                bootbox.confirm({
+                    message: "Are you sure want to create a new version?",
+                    buttons: {
+                        confirm: {
+                            label: 'Yes',
+                            className: 'btn-success'
+                        },
+                        cancel: {
+                            label: 'No',
+                            className: 'btn-danger'
+                        }
+                    },
+                    callback: function (result) {
+                        if(result){
+                            var target = document.getElementById('actionsDiv')
+                            var spinner = new Spinner(opts).spin(target);
+                            $.post('<%= host %>/API/fsm/newVersion',
+                                { "id": <%= id %> },
+                                function(data, status, xhr) {
+                                    spinner.stop();
+                                    location.reload();
+                                }).fail(function(jqxhr, settings, ex) {
+                                spinner.stop();
+                                $.notify({message: 'Could not create a new version!'},{type: 'danger'});
+                            });
+                        }
+                    }
+                });
+            }
+
+        </script>
+    </div>
+</div>
+</body>
+
+
+</html>
+

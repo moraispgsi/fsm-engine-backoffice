@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <%- include('views/header.ejs') %>
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar" data-background-color="white" data-active-color="danger">
+
+    <!--
+		Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+		Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+	-->
+
+        <div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="http://www.creative-tim.com" class="simple-text">
+                    Creative Tim
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li class="active">
+                    <a href="/statemachines">
+                        <i class="ti-panel"></i>
+                        <p>State Machines</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/versions">
+                        <i class="ti-panel"></i>
+                        <p>Versions</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/instances">
+                        <i class="ti-panel"></i>
+                        <p>Instances</p>
+                    </a>
+                </li>
+            </ul>
+    	</div>
+    </div>
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span>
+                        <span class="icon-bar bar3"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">State-machines</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <i class="ti-settings"></i>
+                                <p>Settings</p>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Full list</h4>
+                                <!--<p class="category">24 Hours performance</p>-->
+                            </div>
+                            <div class="content table-responsive table-full-width">
+                                    <table class="table table table-striped">
+                                        <thead>
+                                        <th>ID</th>
+                                        <th>name</th>
+                                        <th>createdAt</th>
+                                        <th>updatedAt</th>
+                                        <th>actions</th>
+                                        </thead>
+                                        <tbody>
+                                        <% for(var fsm of fsms) { %>
+                                        <tr>
+                                            <td><%= fsm.id %></td>
+                                            <td><%= fsm.name %></td>
+                                            <td><%= fsm.createdAt %></td>
+                                            <td><%= fsm.updatedAt %></td>
+                                            <td>
+                                                <a href="statemachine?id=<%= fsm.id %>" class="link">view</a>
+                                            </td>
+                                        </tr>
+                                        <% } %>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Create Finite-State machine</h4>
+                                <!--<p class="category">24 Hours performance</p>-->
+                            </div>
+                            <div id="createFsmDiv" class="content">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label>Name</label>
+                                            <input id="createName" type="text" class="form-control border-input"
+                                                   placeholder="machine name" value="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <hr>
+                                    <div class="stats">
+                                        <button class="btn btn-primary" onclick="createFsm()" >Create</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%- include('views/footer.ejs') %>
+        <script>
+            function createFsm() {
+
+                var opts = {
+                    lines: 13 // The number of lines to draw
+                    , length: 28 // The length of each line
+                    , width: 14 // The line thickness
+                    , radius: 42 // The radius of the inner circle
+                    , scale: 1 // Scales overall size of the spinner
+                    , corners: 1 // Corner roundness (0..1)
+                    , color: '#000' // #rgb or #rrggbb or array of colors
+                    , opacity: 0.25 // Opacity of the lines
+                    , rotate: 0 // The rotation offset
+                    , direction: 1 // 1: clockwise, -1: counterclockwise
+                    , speed: 1 // Rounds per second
+                    , trail: 60 // Afterglow percentage
+                    , fps: 20 // Frames per second when using setTimeout() as a fallback for CSS
+                    , zIndex: 2e9 // The z-index (defaults to 2000000000)
+                    , className: 'spinner' // The CSS class to assign to the spinner
+                    , top: '50%' // Top position relative to parent
+                    , left: '50%' // Left position relative to parent
+                    , shadow: false // Whether to render a shadow
+                    , hwaccel: false // Whether to use hardware acceleration
+                    , position: 'absolute' // Element positioning
+                }
+                var target = document.getElementById('createFsmDiv')
+                var spinner = new Spinner(opts).spin(target);
+
+                $.post('<%= host %>/API/fsm/create',
+                    { "name": $("#createName").val()},
+                    function(data, status, xhr) {
+                        spinner.stop();
+                        if(data.error) {
+                            $.notify({message: 'Finite-state machine name is not available!'},{type: 'danger'});
+                            return;
+                        }
+                        $.notify({ message: 'Finite-state machine was created successfully!'},{ type: 'success'});
+                    })
+                    .done(function() {})
+                    .fail(function(jqxhr, settings, ex) {
+                        spinner.stop();
+                        $.notify({message: 'Finite-state machine was not created!'},{type: 'danger'});
+                    });
+            }
+        </script>
+    </div>
+</div>
+</body>
+</html>

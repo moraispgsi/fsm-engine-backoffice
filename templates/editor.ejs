@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <%- include('views/header.ejs') %>
+    <style>
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="sidebar" data-background-color="white" data-active-color="danger">
+
+        <!--
+            Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+            Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+        -->
+
+        <div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="http://www.creative-tim.com" class="simple-text">
+                    Creative Tim
+                </a>
+            </div>
+
+            <ul class="nav">
+                <li>
+                    <a href="/statemachines">
+                        <i class="ti-panel"></i>
+                        <p>State Machines</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="/versions">
+                        <i class="ti-panel"></i>
+                        <p>Versions</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="/instances">
+                        <i class="ti-panel"></i>
+                        <p>Instances</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar bar1"></span>
+                        <span class="icon-bar bar2"></span>
+                        <span class="icon-bar bar3"></span>
+                    </button>
+                    <a class="navbar-brand" href="/versions">Versions</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">
+                                <i class="ti-settings"></i>
+                                <p>Settings</p>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Editor</h4>
+                                <% if(isSealed){ %>
+                                <p class="category">Version is sealed</p>
+                                <% } %>
+                            </div>
+                            <div class="content">
+                                <div class="row">
+                                    <div style="height: 600px" id="editor"><%= scxml %></div>
+                                </div>
+                                <% if(!isSealed) { %>
+                                <div class="footer">
+                                    <hr>
+                                    <div class="stats">
+                                        Valid
+                                    </div>
+                                </div>
+                                <% } %>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Editor actions</h4>
+                                <!--<p class="category">24 Hours performance</p>-->
+                            </div>
+                            <div id="actionsDiv" class="content">
+                                <ul>
+                                    <% if(!isSealed) { %>
+                                    <li><button class="btn-link" style="border: 0;margin: 0;padding: 0;" onclick="save()">Save the SCXML to the version</button></li>
+                                    <li><button class="btn-link" style="border: 0;margin: 0;padding: 0;" onclick="seal()">Seal the version</button></li>
+                                    <li><a class="btn-link" style="color: darkgrey;">Import SCMXL file</a></li>
+                                    <li><a class="btn-link" style="color: darkgrey;">Export SCMXL file</a></li>
+                                    <% } else { %>
+                                    <li><a class="btn-link" style="color: darkgrey;">Export SCMXL file</a></li>
+                                    <% } %>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Navigate</h4>
+                                <!--<p class="category">24 Hours performance</p>-->
+                            </div>
+                            <div class="content">
+                                <ul>
+                                    <li><a class="btn-link" href="statemachine?id=<%= fsmID %>">Go to state machine</a></li>
+                                    <li><a class="btn-link" href="version?id=<%= id %>">Go to version</a></li>
+                                    <li><a class="btn-link" style="color: darkgrey;">Go to last version</a></li>
+                                    <li><a class="btn-link" style="color: darkgrey;">Go to last sealed version</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="header">
+                                <h4 class="title">Documentation</h4>
+                                <!--<p class="category">24 Hours performance</p>-->
+                            </div>
+                            <div class="content">
+                                <ul>
+                                    <li><a class="btn-link" style="color: darkgrey;">W3C SCXML documentation</a></li>
+                                    <li><a class="btn-link" style="color: darkgrey;">How to create a new state</a></li>
+                                    <li><a class="btn-link" style="color: darkgrey;">How to create a transition</a></li>
+                                    <li><a class="btn-link" style="color: darkgrey;">See available executable content</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%- include('views/footer.ejs') %>
+        <script src="/ace/src-min/ace.js" type="text/javascript" charset="utf-8"></script>
+        <script>
+            var opts = {
+                lines: 13 // The number of lines to draw
+                , length: 28 // The length of each line
+                , width: 14 // The line thickness
+                , radius: 42 // The radius of the inner circle
+                , scale: 1 // Scales overall size of the spinner
+                , corners: 1 // Corner roundness (0..1)
+                , color: '#000' // #rgb or #rrggbb or array of colors
+                , opacity: 0.25 // Opacity of the lines
+                , rotate: 0 // The rotation offset
+                , direction: 1 // 1: clockwise, -1: counterclockwise
+                , speed: 1 // Rounds per second
+                , trail: 60 // Afterglow percentage
+                , fps: 20 // Frames per second when using setTimeout() as a fallback for CSS
+                , zIndex: 2e9 // The z-index (defaults to 2000000000)
+                , className: 'spinner' // The CSS class to assign to the spinner
+                , top: '50%' // Top position relative to parent
+                , left: '50%' // Left position relative to parent
+                , shadow: false // Whether to render a shadow
+                , hwaccel: false // Whether to use hardware acceleration
+                , position: 'absolute' // Element positioning
+            }
+
+            var editor = ace.edit("editor");
+            editor.setTheme("ace/theme/chrome");
+            <% if(isSealed){ %>
+            editor.setOptions({
+                readOnly: true,
+                highlightActiveLine: false,
+                highlightGutterLine: false
+            });
+            editor.renderer.$cursorLayer.element.style.opacity = 0;
+//            editor.textInput.getElement().disabled = true;
+//            editor.commands.commmandKeyBinding = {};
+            <% } %>
+            editor.getSession().setMode("ace/mode/xml");
+
+            <% if(!isSealed) { %>
+            function save(){
+                if(editor.getValue() === "") {
+                    $.notify({message: 'SCXML is empty!'},{type: 'danger'});
+                    return
+                }
+                var target = document.getElementById('actionsDiv')
+                var spinner = new Spinner(opts).spin(target);
+                $.post('saveScxml',
+                    { "scxml": editor.getValue(), "id": <%= id %> },
+                    function(data, status, xhr) {
+                        spinner.stop();
+                        $.notify({ message: 'SCXML was saved successfully!'},{ type: 'success'});
+                    }).fail(function(jqxhr, settings, ex) {
+                        spinner.stop();
+                        console.log(ex);
+                        $.notify({message: 'SCXML was not saved!'},{type: 'danger'});
+                    });
+            }
+            function seal() {
+
+                bootbox.confirm({
+                    message: "Are you sure want to seal the version?",
+                    buttons: {
+                        confirm: {
+                            label: 'Yes',
+                            className: 'btn-success'
+                        },
+                        cancel: {
+                            label: 'No',
+                            className: 'btn-danger'
+                        }
+                    },
+                    callback: function (result) {
+                        if(result){
+                            var target = document.getElementById('actionsDiv')
+                            var spinner = new Spinner(opts).spin(target);
+                            $.post('saveScxml',
+                                { "scxml": editor.getValue(), "id": <%= id %> },
+                                function(data, status, xhr) {
+                                    $.post('seal', { "id": <%= id %> }, function(data, status, xhr) {
+                                        location.reload();
+                                    }).fail(function(jqxhr, settings, ex) {
+                                        spinner.stop();
+                                        $.notify({message: 'Could not seal the version!'},{type: 'danger'});
+                                    });
+                                }).fail(function(jqxhr, settings, ex) {
+                                spinner.stop();
+                                $.notify({message: 'SCXML was not saved!'},{type: 'danger'});
+                            });
+                        }
+                    }
+                });
+
+            }
+            <% } %>
+
+
+        </script>
+    </div>
+</div>
+</body>
+
+
+</html>
+
