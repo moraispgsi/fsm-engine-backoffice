@@ -8,7 +8,7 @@ jobs:
       script: skip
       deploy: &heroku
         provider: heroku
-        app: version-engine-backoffice
+        app: fsm-engine-backoffice
         api_key: 246542ac-8051-4867-aa1b-89abe4fb5dc9
 #    - stage: test staging
 #      script: 'curl http://fsm-engine-backoffice-staging.herokuapp.com'
@@ -16,6 +16,6 @@ jobs:
       script: skip
       deploy:
         <<: *heroku
-        app: version-engine-backoffice
+        app: fsm-engine-backoffice
     - stage: test production
-      script: 'curl http://version-engine-backoffice.herokuapp.com'
+      script: 'curl http://fsm-engine-backoffice.herokuapp.com'
