@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9979ca07-542b-49ec-9d4f-0ca6fbf91120" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fsm-engine-backoffice.todo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-beautify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-chromevox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-elastic_tabstops_lite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-emmet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-error_marker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-keybinding_menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-language_tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-linking.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-modelist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-old_ie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-searchbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-settings_menu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-spellcheck.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-split.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-static_highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-statusbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-textarea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-themelist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/ext-whitespace.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/keybinding-emacs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/keybinding-vim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-abap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-abc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-actionscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-ada.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-apache_conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-applescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-asciidoc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-assembly_x86.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-autohotkey.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-batchfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-bro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-c9search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-c_cpp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-cirru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-clojure.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-cobol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-coffee.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-coldfusion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-csharp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-curly.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-dart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-diff.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-django.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-dockerfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-dot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-drools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-eiffel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-ejs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-elixir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-elm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-erlang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-forth.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-fortran.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-ftl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-gcode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-gherkin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-gitignore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-glsl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-gobstones.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-golang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-groovy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-haml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-handlebars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-haskell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-haskell_cabal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-haxe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-hjson.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-html_elixir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-html_ruby.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-ini.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-io.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-jack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-jade.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-java.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-jsoniq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-jsp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-jsx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-julia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-kotlin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-latex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-lean.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-less.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-liquid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-lisp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-live_script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-livescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-logiql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-lsl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-lua.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-luapage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-lucene.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-makefile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-mask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-matlab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-maze.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-mel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-mips_assembler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-mipsassembler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-mushcode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-mysql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-nix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-nsis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-objectivec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-ocaml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-pascal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-perl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-pgsql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-php.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-plain_text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-powershell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-praat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-prolog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-properties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-protobuf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-python.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-r.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-razor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-rdoc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-rhtml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-rst.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-ruby.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-rust.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-sass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-scad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-scala.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-scheme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-scss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-sh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-sjs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-smarty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-snippets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-soy_template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-space.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-sql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-sqlserver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-stylus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-svg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-swift.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-swig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-tcl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-tex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-textile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-toml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-tsx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-twig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-typescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-vala.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-vbscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-velocity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-verilog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-vhdl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-wollok.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-xml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-xquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/mode-yaml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/abap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/abc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/actionscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/ada.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/apache_conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/applescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/asciidoc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/assembly_x86.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/autohotkey.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/batchfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/bro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/c9search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/c_cpp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/cirru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/clojure.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/cobol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/coffee.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/coldfusion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/csharp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/curly.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/dart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/diff.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/django.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/dockerfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/dot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/drools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/eiffel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/ejs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/elixir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/elm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/erlang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/forth.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/fortran.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/ftl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/gcode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/gherkin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/gitignore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/glsl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/gobstones.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/golang.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/groovy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/haml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/handlebars.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/haskell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/haskell_cabal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/haxe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/hjson.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/html_elixir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/html_ruby.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/ini.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/io.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/jack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/jade.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/java.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/jsoniq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/jsp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/jsx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/julia.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/kotlin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/latex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/lean.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/less.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/liquid.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/lisp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/live_script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/livescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/logiql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/lsl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/lua.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/luapage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/lucene.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/makefile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/mask.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/matlab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/maze.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/mel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/mips_assembler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/mipsassembler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/mushcode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/mysql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/nix.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/nsis.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/objectivec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/ocaml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/pascal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/perl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/pgsql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/php.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/plain_text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/powershell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/praat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/prolog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/properties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/protobuf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/python.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/r.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/razor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/rdoc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/rhtml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/rst.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/ruby.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/rust.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/sass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/scad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/scala.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/scheme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/scss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/sh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/sjs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/smarty.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/snippets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/soy_template.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/space.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/sql.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/sqlserver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/stylus.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/svg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/swift.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/swig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/tcl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/tex.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/text.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/textile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/toml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/tsx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/twig.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/typescript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/vala.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/vbscript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/velocity.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/verilog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/vhdl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/wollok.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/xml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/xquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/snippets/yaml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-ambiance.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-chaos.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-chrome.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-clouds.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-clouds_midnight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-cobalt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-crimson_editor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-dawn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-dreamweaver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-eclipse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-github.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-idle_fingers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-iplastic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-katzenmilch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-kr_theme.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-kuroir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-merbivore.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-merbivore_soft.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-mono_industrial.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-monokai.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-pastel_on_dark.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-solarized_dark.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-solarized_light.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-sqlserver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-terminal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-textmate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-tomorrow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-tomorrow_night.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-tomorrow_night_blue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-tomorrow_night_bright.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-tomorrow_night_eighties.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-twilight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-vibrant_ink.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/theme-xcode.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/worker-coffee.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/worker-css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/worker-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/worker-javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/worker-json.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/worker-lua.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/worker-php.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/worker-xml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ace/src-min/worker-xquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/bootstrap-treeview.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/demo.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/paper-dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/step-progress.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/css/themify-icons.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/themify.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/themify.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/themify.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/fonts/themify.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/apple-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/faces/face-0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/faces/face-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/faces/face-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/faces/face-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/new_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/img/tim_80x80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/bootbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/bootstrap-checkbox-radio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/bootstrap-notify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/bootstrap-treeview.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/chartist.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/demo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/jquery-1.10.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/paper-dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/js/spin.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper-dashboard.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_alerts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_cards.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_chartist.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_checkbox-radio.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_dropdown.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_footers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_inputs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_misc.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_navbars.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_responsive.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_sidebar-and-main-panel.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_typography.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/mixins/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/mixins/_cards.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/mixins/_chartist.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/mixins/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/mixins/_inputs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/mixins/_labels.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/mixins/_navbars.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/mixins/_sidebar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/mixins/_tabs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/mixins/_transparency.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sass/paper/mixins/_vendor-prefixes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap/dist/css/bootstrap-grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap/dist/css/bootstrap-grid.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap/dist/css/bootstrap-grid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap/dist/css/bootstrap-grid.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap/dist/css/bootstrap-reboot.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap/dist/css/bootstrap-reboot.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap/dist/css/bootstrap-reboot.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap/dist/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap/dist/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap/dist/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/vkbeautify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/editor.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/instance.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/instances.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/statemachine.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/statemachines.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/version.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/versions.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/views/footer.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/views/header.ejs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmlSchemas/scxml.xsd" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fsm-engine-backoffice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fsm-engine-backoffice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fsm-engine-backoffice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fsm-engine-backoffice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9979ca07-542b-49ec-9d4f-0ca6fbf91120" name="Default" comment="" />
+      <created>1499327738232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1499327738232</updated>
+      <workItem from="1499327739659" duration="1216000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1216000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
