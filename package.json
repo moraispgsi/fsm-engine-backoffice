@@ -1,8 +1,8 @@
 {
-  "name": "react-adminlte-dash",
-  "description": "React.js components for AdminLTE themed dashboard",
-  "author": "Nate Greene <nate.greene@gmail.com>",
-  "user": "zksailor534",
+  "name": "fsm-engine-backoffice",
+  "description": "fsm-engine-backoffice",
+  "author": "Ricardo Morais <moraispgsi@gmail.com>",
+  "user": "moraispgsi",
   "version": "0.4.0",
   "scripts": {
     "start": "webpack-dev-server",
@@ -80,11 +80,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zksailor534/react-adminlte-dash.git"
+    "url": "https://github.com/moraispgsi/fsm-engine-backoffice.git"
   },
-  "homepage": "https://zksailor534.github.io/react-adminlte-dash/",
+  "homepage":"https://github.com/moraispgsi/fsm-engine-backoffice",
   "bugs": {
-    "url": "https://github.com/zksailor534/react-adminlte-dash/issues"
+    "url": "https://github.com/moraispgsi/fsm-engine-backoffice/issues"
   },
   "jest": {
     "collectCoverage": true,
@@ -107,5 +107,12 @@
   "license": "MIT",
   "pre-push": [
     "test"
-  ]
+  ],
+  "dependencies": {
+    "brace": "^0.10.0",
+    "react-ace-editor": "0.0.2",
+    "react-addons-update": "^15.6.0",
+    "react-bootstrap": "latest",
+    "reactjs-admin-lte": "latest"
+  }
 }

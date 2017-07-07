@@ -7,6 +7,8 @@ import { syncHistoryWithStore, routerReducer } from 'react-router-redux';
 
 import App, { reducer } from './AppContainer';
 import Home from './Home';
+import AddServer from './server/add';
+import EditModel from './version/EditModel';
 
 // Make allowances for gh-pages routing
 // main path is project name
@@ -27,18 +29,26 @@ const store = createStore(
 // Create an enhanced history that syncs navigation events with the store
 const history = syncHistoryWithStore(browserHistory, store);
 
-const routes = (
+const routes = [
   <Route path={mainPath} component={App}>
     <IndexRoute component={Home} />
-  </Route>
-);
+  </Route>,
+  <Route path={`${mainPath}addserver`} component={App}>
+    <IndexRoute component={AddServer} />
+  </Route>,
+  <Route path={`${mainPath}editModel`} component={App}>
+    <IndexRoute component={EditModel} />
+  </Route>,
+];
 
 // set app div height
 document.getElementById('app').style['min-height'] = '100vh';
 
 ReactDOM.render(
   <Provider store={store}>
-    <Router history={history} routes={routes} />
+    <Router history={history}>
+      {routes}
+    </Router>
   </Provider>,
   document.getElementById('app') // eslint-disable-line comma-dangle
 );

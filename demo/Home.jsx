@@ -1,48 +1,29 @@
 import React from 'react';
-import { Box } from 'reactjs-admin-lte';
+// import { Box } from 'reactjs-admin-lte';
+// import ReactAce from 'react-ace-editor';
 // import Markdown from 'react-remarkable';
-
 // import './Documentation.css';
 
 // const readme = require('../README.md');
 
-const Documentation = () => (
-  <div className="skeleton" style={{ paddingTop: '25px' }}>
-    <section className="content">
-      <div className="row">
-        <div className="col-xs-12">
-          <div className="box">
-            <div className="box-header">
-              <h3 className="box-title">Hover Data Table</h3>
-            </div>
-            <div className="box-body">
-              fdsf
+class Home extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+  render() {
+    return (
+      <div className="skeleton" style={{ paddingTop: '25px' }}>
+        <section className="content">
+          <div className="row">
+            <div className="col-xs-12">
+              Home
             </div>
           </div>
-          <Box>
-            <Box.Header>
-              <Box.Title>Hello, world!</Box.Title>
-            </Box.Header>
-            <Box.Body>
-              Thanks for choosing reactjs-admin-lte.
-            </Box.Body>
-          </Box>
-          <div className="box">
-            <div className="box-header">
-              <h3 className="box-title">Data Table With Full Features</h3>
-            </div>
-
-            <div className="box-body">
-              teste
-            </div>
-
-          </div>
-
-        </div>
+        </section>
       </div>
+    );
+  }
+}
 
-    </section>
-  </div>
-);
-
-export default Documentation;
+export default Home;
