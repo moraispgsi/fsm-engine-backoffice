@@ -1,0 +1,165 @@
+exports[`<UserMenu /> opens and closes when clicked 1`] = `
+<li
+  className="cGfuqK"
+  onClick={[Function]}
+  onMouseLeave={[Function]}>
+  <img
+    className="guSIJB"
+    src={undefined} />
+  <span
+    className="jMbPMO" />
+  <ul
+    className="edtLSL"
+    open={false}>
+    <li
+      className="fpRjhm">
+      <img
+        className="drgPqv"
+        src={undefined} />
+      <p
+        className="fVcwYn" />
+    </li>
+    <li
+      className="encofi" />
+  </ul>
+</li>
+`;
+
+exports[`<UserMenu /> opens and closes when clicked 2`] = `
+<li
+  className="cGfuqK"
+  onClick={[Function]}
+  onMouseLeave={[Function]}>
+  <img
+    className="guSIJB"
+    src={undefined} />
+  <span
+    className="jMbPMO" />
+  <ul
+    className="iDtJkf"
+    open={true}>
+    <li
+      className="fpRjhm">
+      <img
+        className="drgPqv"
+        src={undefined} />
+      <p
+        className="fVcwYn" />
+    </li>
+    <li
+      className="encofi" />
+  </ul>
+</li>
+`;
+
+exports[`<UserMenu /> renders correctly with default options 1`] = `
+<li
+  className="cGfuqK"
+  onClick={[Function]}
+  onMouseLeave={[Function]}>
+  <img
+    className="guSIJB"
+    src={undefined} />
+  <span
+    className="jMbPMO" />
+  <ul
+    className="edtLSL"
+    open={false}>
+    <li
+      className="fpRjhm">
+      <img
+        className="drgPqv"
+        src={undefined} />
+      <p
+        className="fVcwYn" />
+    </li>
+    <li
+      className="encofi" />
+  </ul>
+</li>
+`;
+
+exports[`<UserMenu /> renders correctly with image 1`] = `
+<li
+  className="cGfuqK"
+  onClick={[Function]}
+  onMouseLeave={[Function]}>
+  <img
+    className="guSIJB"
+    src="/some/path" />
+  <span
+    className="jMbPMO" />
+  <ul
+    className="edtLSL"
+    open={false}>
+    <li
+      className="fpRjhm">
+      <img
+        className="drgPqv"
+        src="/some/path" />
+      <p
+        className="fVcwYn" />
+    </li>
+    <li
+      className="encofi" />
+  </ul>
+</li>
+`;
+
+exports[`<UserMenu /> renders correctly with name 1`] = `
+<li
+  className="cGfuqK"
+  onClick={[Function]}
+  onMouseLeave={[Function]}>
+  <img
+    className="guSIJB"
+    src={undefined} />
+  <span
+    className="jMbPMO">
+    Another name
+  </span>
+  <ul
+    className="edtLSL"
+    open={false}>
+    <li
+      className="fpRjhm">
+      <img
+        className="drgPqv"
+        src={undefined} />
+      <p
+        className="fVcwYn">
+        Another name
+      </p>
+    </li>
+    <li
+      className="encofi" />
+  </ul>
+</li>
+`;
+
+exports[`<UserMenu /> renders correctly with theme 1`] = `
+<li
+  className="jIwgmN"
+  onClick={[Function]}
+  onMouseLeave={[Function]}>
+  <img
+    className="guSIJB"
+    src={undefined} />
+  <span
+    className="jMbPMO" />
+  <ul
+    className="edtLSL"
+    open={false}>
+    <li
+      className="fuYsiq">
+      <img
+        className="drgPqv"
+        src={undefined} />
+      <p
+        className="fVcwYn" />
+    </li>
+    <li
+      className="encofi" />
+  </ul>
+</li>
+`;

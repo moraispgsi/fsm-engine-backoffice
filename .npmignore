@@ -1,2 +1,6 @@
-src
-webpack.conf.js
+demo/
+dist/
+tests/
+src/
+.*
+

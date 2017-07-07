@@ -1,0 +1,83 @@
+INFORMATION:
+  fsm-engine restful API: 
+    https://fsm-engine-restful.herokuapp.com
+  fsm-engine-restful github:
+    https://github.com/moraispgsi/fsm-engine-restful
+  fsm-engine github:
+    https://github.com/moraispgsi/fsm-engine
+  fsm-core github:
+    https://github.com/moraispgsi/fsm-core
+  fsm-engine-backoffice (fork this repository):
+    https://github.com/moraispgsi/fsm-engine-backoffice
+  fsm-core-repo (fork this repository):
+    https://github.com/moraispgsi/fsm-core-repo
+  Backoffice Template:
+    https://adminlte.io/themes/AdminLTE/index.html
+
+
+Back-office:
+ ☐ add server
+ ☐ remove server
+   Server:
+     ☐ add engine (specify the git repository and ssh credentials) @high
+     ☐ remove engine @high
+     ☐ add action-dispatcher @high
+     ☐ remove action-dispatcher @high
+     ☐ add remote git repository
+     ☐ remove remote git repository
+     Action dispatcher:
+       ☐ link to fallback dispatcher @low
+       ☐ add namespace @low
+       ☐ remove namespace @low
+       Namespace:
+          ☐ add action @low
+          ☐ remove action @low
+     Repository:
+       ☐ Revert to previous commit @low
+       ☐ Log the commits @low
+     Engine:
+       ☐ link action-dispatcher(from an available action-dispatcher) @medium
+       ☐ unlink action-dispatcher @medium
+       ☐ swap action-dispatcher @medium
+       ☐ stop engine @high
+       ☐ resume engine @high
+       ☐ add machine (by name) @high
+       ☐ remove machine (by name) @high
+       ☐ get config @high
+       ☐ set config @high
+       ☐ display number of machine models @medium
+       ☐ go to a machine @high
+       ☐ change repository (stops the engine and load another repository) @high
+       ☐ go to repository (if the remote git repository is a github, bitbucket etc) @low
+       Machine:
+         ☐ add version @high
+         ☐ display number of versions @medium
+         ☐ display number of instances @medium
+         ☐ display number of instances running @medium
+         ☐ display number of instances stopped @medium
+         ☐ go to version n @high
+         ☐ go to last version (last version might not be sealed) @medium
+         ☐ got to last sealed version @medium
+         Version:
+           ☐ edit model(Using the ACE Editor) @high
+           ☐ seal version @high
+           ☐ get info @high
+           ☐ add instance @high
+           ☐ go to instance @high
+           ☐ go to previous version(when possible) @low
+           ☐ go to next version(when possible) @low
+           Instance:
+             ☐ display the snapshots @medium
+             ☐ revert to previous snapshot @medium
+             ☐ start @high
+             ☐ stop  @high
+             ☐ restart @high
+             ☐ display state @high
+             ☐ display info @high 
+
+
+
+
+
+
+

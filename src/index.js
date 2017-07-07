@@ -1,10 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Component from './Component';
+import './main.css';
 
-window.onload = () => {
-  ReactDOM.render(
-    <Component />,
-    document.querySelector('#container')
-  );
+import Dashboard from './components/Dashboard';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+
+module.exports = {
+  Dashboard,
+  Header,
+  Sidebar,
 };
