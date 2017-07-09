@@ -14,7 +14,7 @@ INFORMATION:
   Backoffice Template:
     https://adminlte.io/themes/AdminLTE/index.html
   Boilerplate:
-
+    https://github.com/zksailor534/react-adminlte-dash
 
 
 Back-office:
@@ -22,18 +22,22 @@ Back-office:
  ☐ remove server
    Server:
      ☐ add engine (specify the git repository and ssh credentials) @high
-     ☐ remove engine @high
-     ☐ add action-dispatcher @high
+     ☐ unlink engine @high
+     ☐ link action-dispatcher @high
      ☐ remove action-dispatcher @high
+     ☐ combobox to choose the dispatcher from those in the orchestration server
      ☐ add remote git repository
      ☐ remove remote git repository
      Action dispatcher:
-       ☐ link to fallback dispatcher @low
-       ☐ add namespace @low
-       ☐ remove namespace @low
-       Namespace:
-          ☐ add action @low
-          ☐ remove action @low
+       ☐ add dispatcher
+       ☐ remove dispatcher
+       ☐ test dispatcher (calling one of the actions e.g.) use the 
+       ☐ check dispatcher information
+     Repositories:
+       ☐ add repository
+       ☐ see repository information
+       ☐ see commit history
+       ☐ remove repository
      Repository:
        ☐ Revert to previous commit @low
        ☐ Log the commits @low
@@ -62,6 +66,8 @@ Back-office:
          ☐ got to last sealed version @medium
          Version:
            ☐ edit model(Using the ACE Editor) @high
+           ☐ Model validation in the editor
+           ☐ Get the actions dispatcher actions to validate the SCXML along with the XSD
            ☐ seal version @high
            ☐ get info @high
            ☐ add instance @high

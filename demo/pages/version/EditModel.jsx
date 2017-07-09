@@ -1,18 +1,15 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import { Box } from 'reactjs-admin-lte';
 import ReactAce from 'react-ace-editor';
 import update from 'react-addons-update';
-// import Markdown from 'react-remarkable';
 
-// import './Documentation.css';
-
-// const readme = require('../README.md');
 class EditorModel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
-  shouldComponentUpdate(/* nextProps, nextState */) {
+  shouldComponentUpdate(nextProps, nextState) {
     return false;
   }
   setContent(content) {
@@ -35,7 +32,7 @@ class EditorModel extends React.Component {
                 </Box.Header>
                 <Box.Body>
                   <ReactAce
-                    mode="javascript"
+                    mode="xml"
                     theme="eclipse"
                     setReadOnly={false}
                     onChange={(content) => { this.setContent(content); }}

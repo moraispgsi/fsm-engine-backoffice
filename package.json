@@ -82,7 +82,7 @@
     "type": "git",
     "url": "https://github.com/moraispgsi/fsm-engine-backoffice.git"
   },
-  "homepage":"https://github.com/moraispgsi/fsm-engine-backoffice",
+  "homepage": "https://github.com/moraispgsi/fsm-engine-backoffice",
   "bugs": {
     "url": "https://github.com/moraispgsi/fsm-engine-backoffice/issues"
   },
@@ -109,10 +109,17 @@
     "test"
   ],
   "dependencies": {
+    "adminlte-reactjs": "^1.0.6",
+    "axios": "^0.16.2",
     "brace": "^0.10.0",
+    "datatables.net": "^1.10.15",
+    "jQuery": "latest",
+    "jquery": "latest",
     "react-ace-editor": "0.0.2",
     "react-addons-update": "^15.6.0",
     "react-bootstrap": "latest",
+    "react-json-tree": "^0.10.9",
+    "react-object-inspector": "^0.2.1",
     "reactjs-admin-lte": "latest"
   }
 }

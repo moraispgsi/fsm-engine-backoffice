@@ -6,9 +6,30 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux';
 
 import App, { reducer } from './AppContainer';
+import AppDefault from './AppDefault';
 import Home from './Home';
-import AddServer from './server/add';
-import EditModel from './version/EditModel';
+
+// servers
+import ViewServer from './pages/server/ViewServer';
+import AddServer from './pages/server/AddServer';
+
+// dispatcher
+import ViewDispatcher from './pages/dispatcher/ViewDispatcher';
+import AddDispatcher from './pages/dispatcher/AddDispatcher';
+import EditDispatcher from './pages/dispatcher/EditDispatcher';
+import DispatcherDocumentation from './pages/dispatcher/documentation/DispatcherDocumentation';
+
+// versions
+import EditModel from './pages/version/EditModel';
+import ViewVersion from './pages/version/ViewVersion';
+
+// instances
+import ViewInstance from './pages/instance/ViewInstance';
+import ViewInstanceState from './pages/instance/ViewInstanceState';
+
+// Login
+import Login from './pages/login/Login';
+import Lockscreen from './pages/login/Lockscreen';
 
 // Make allowances for gh-pages routing
 // main path is project name
@@ -33,11 +54,41 @@ const routes = [
   <Route path={mainPath} component={App}>
     <IndexRoute component={Home} />
   </Route>,
-  <Route path={`${mainPath}addserver`} component={App}>
+  <Route path={`${mainPath}server/add`} component={App}>
     <IndexRoute component={AddServer} />
   </Route>,
-  <Route path={`${mainPath}editModel`} component={App}>
+  <Route path={`${mainPath}server`} component={App}>
+    <IndexRoute component={ViewServer} />
+  </Route>,
+  <Route path={`${mainPath}dispatcher/add`} component={App}>
+    <IndexRoute component={AddDispatcher} />
+  </Route>,
+  <Route path={`${mainPath}dispatcher/edit`} component={App}>
+    <IndexRoute component={EditDispatcher} />
+  </Route>,
+  <Route path={`${mainPath}dispatcher`} component={App}>
+    <IndexRoute component={ViewDispatcher} />
+  </Route>,
+  <Route path={`${mainPath}dispatcher/documentation`} component={App}>
+    <IndexRoute component={DispatcherDocumentation} />
+  </Route>,
+  <Route path={`${mainPath}version/model`} component={App}>
     <IndexRoute component={EditModel} />
+  </Route>,
+  <Route path={`${mainPath}version`} component={App}>
+    <IndexRoute component={ViewVersion} />
+  </Route>,
+  <Route path={`${mainPath}instance`} component={App}>
+    <IndexRoute component={ViewInstance} />
+  </Route>,
+  <Route path={`${mainPath}instance/state`} component={App}>
+    <IndexRoute component={ViewInstanceState} />
+  </Route>,
+  <Route path={`${mainPath}login`} component={AppDefault}>
+    <IndexRoute component={Login} />
+  </Route>,
+  <Route path={`${mainPath}lockscreen`} component={AppDefault}>
+    <IndexRoute component={Lockscreen} />
   </Route>,
 ];
 

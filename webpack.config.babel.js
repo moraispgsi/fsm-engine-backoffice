@@ -97,6 +97,10 @@ if (TARGET === 'start') {
     entry: {
       demo: [config.paths.demo, config.paths.style],
     },
+    output: {
+      path: `${__dirname}/public`,
+      filename: '/bundle.js',
+    },
     context: ROOT_PATH,
     plugins: [
       new HtmlWebpackPlugin({

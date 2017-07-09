@@ -68,8 +68,8 @@ Header.defaultProps = {
   fixed: false,
   sidebarMini: false,
   sidebarCollapse: false,
-  logoLg: <span><b>Admin</b>LTE</span>,
-  logoSm: <span><b>A</b>LT</span>,
+  logoLg: <span><b>Admin</b>SBCS</span>,
+  logoSm: <span><b>A</b></span>,
 };
 
 Header.UserMenu = UserMenu;
