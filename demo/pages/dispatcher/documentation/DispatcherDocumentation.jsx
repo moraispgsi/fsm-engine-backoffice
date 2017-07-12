@@ -7,48 +7,50 @@ class DispatcherDocumentation extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      dispatcherName: 'ACE.js',
+      dispatcherName: 'INSTICC',
       // Dummy services(Needs to be requested to the action dispatcher)
       services: {
-        'https://insticc.org/ddm': [],
-        'https://insticc.org/cms': [
-          {
-            name: 'changeVisibility',
-            arguments: {
-              name: {
-                type: 'string',
-                description: 'The name of the website',
+        'http://www.insticc.org/cms': {
+          abbreviation: 'cms',
+          actions: {
+            changeView: {
+              arguments: {
+                name: {
+                  type: 'string',
+                  description: 'The name of the website',
+                },
+                id: {
+                  type: 'string',
+                  description: 'The id of the component to change the visibility',
+                },
+                view: {
+                  type: 'string',
+                  description: 'The view identifier',
+                },
               },
-              id: {
-                type: 'string',
-                description: 'The id of the component to change the visibility',
-              },
-              visibility: {
-                type: 'boolean',
-                description: 'The boolean value for the component visibility',
-              },
+              description: 'This action is used to change the view of a component in a website.',
             },
-            description: 'This action is used to change the visibility of a component in a website.',
-          },
-          {
-            name: 'changeView',
-            arguments: {
-              name: {
-                type: 'string',
-                description: 'The name of the website',
+            changeVisibility: {
+              arguments: {
+                name: {
+                  type: 'string',
+                  description: 'The name of the website',
+                },
+                id: {
+                  type: 'string',
+                  description: 'The id of the component to change the visibility',
+                },
+                visibility: {
+                  type: 'boolean',
+                  description: 'The boolean value for the component visibility',
+                },
               },
-              id: {
-                type: 'string',
-                description: 'The id of the component to change the visibility',
-              },
-              view: {
-                type: 'string',
-                description: 'The view identifier',
-              },
+              description: 'This action is used to change the visibility of a component in a website.',
             },
-            description: 'This action is used to change the view of a component in a website.',
           },
-        ],
+        },
+        'http://www.insticc.org/ddm': { abbreviation: 'ddm', actions: {} },
+        'http://www.insticc.org/hermes': { abbreviation: 'hermes', actions: {} },
       },
     };
   }
@@ -56,7 +58,7 @@ class DispatcherDocumentation extends React.Component {
     const namespaces = Object.keys(this.state.services);
     const result = [];
     for (const ns of namespaces) {
-      result.push(<NamespaceDocumentation namespace={ns} services={this.state.services[ns]} />);
+      result.push(<NamespaceDocumentation namespace={ns} data={this.state.services[ns]} />);
     }
     return result;
   }

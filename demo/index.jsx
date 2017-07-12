@@ -29,6 +29,7 @@ import ViewInstanceState from './pages/instance/ViewInstanceState';
 
 // Login
 import Login from './pages/login/Login';
+import Register from './pages/login/Register';
 import Lockscreen from './pages/login/Lockscreen';
 
 // Make allowances for gh-pages routing
@@ -86,6 +87,9 @@ const routes = [
   </Route>,
   <Route path={`${mainPath}login`} component={AppDefault}>
     <IndexRoute component={Login} />
+  </Route>,
+  <Route path={`${mainPath}register`} component={AppDefault}>
+    <IndexRoute component={Register} />
   </Route>,
   <Route path={`${mainPath}lockscreen`} component={AppDefault}>
     <IndexRoute component={Lockscreen} />

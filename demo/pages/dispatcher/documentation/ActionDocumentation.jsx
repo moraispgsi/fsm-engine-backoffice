@@ -1,4 +1,4 @@
-/* eslint-disable react/prefer-stateless-function,react/no-unescaped-entities,max-len,react/forbid-prop-types,no-restricted-syntax */
+/* eslint-disable react/prefer-stateless-function,react/no-unescaped-entities,max-len,react/forbid-prop-types,no-restricted-syntax,react/no-unused-prop-types */
 import React from 'react';
 
 class ActionDocumentation extends React.Component {
@@ -31,24 +31,31 @@ class ActionDocumentation extends React.Component {
         {this.props.action.description}
 
         <h4>Data Api</h4>
+
+        <table className="table table-striped table-bordered">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Type</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {this.attributeTRArray()}
+          </tbody>
+        </table>
+
         <p>
-          <table className="table table-striped table-bordered">
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Type</th>
-                <th>Description</th>
-              </tr>
-            </thead>
-            <tbody>
-              {this.attributeTRArray()}
-            </tbody>
-          </table>
+          Add <code>{`<${this.props.abbr}:${this.props.action.name} ${this.attributes()}  \\>`}</code>
+          to the markup and add the values to the respective attributes.
+          To use dynamic data in the markup, append <code>expr</code> to the attribute name and capitalize the attribute.
         </p>
         <p>
-          Add <code>{`<nsAbbr:${this.props.action.name} ${this.attributes()}  \\>`}</code> to the markup and add the values to the respective attributes.
-          To use dynamic data in the markup, append <code>expr</code> to the attribute name and capitalize the attribute.
-          Example: <code>exprAttribute="fooVariable"</code>.
+          Example:
+          <ul>
+            <li>Attribute <code>name</code>.</li>
+            <li>Usage: <code>exprName="foo"</code>.</li>
+          </ul>
         </p>
       </div>
     );
@@ -56,10 +63,12 @@ class ActionDocumentation extends React.Component {
 }
 
 ActionDocumentation.defaultProps = {
+  abbr: 'abbr',
   action: {},
 };
 
 ActionDocumentation.propTypes = {
+  abbr: React.PropTypes.string.isRequired,
   action: React.PropTypes.object.isRequired,
 };
 

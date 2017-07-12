@@ -33,7 +33,7 @@ Back-office:
        ☐ remove dispatcher
        ☐ test dispatcher (calling one of the actions e.g.) use the 
        ☐ check dispatcher information
-     Repositories:
+     Repositories:@low
        ☐ add repository
        ☐ see repository information
        ☐ see commit history
@@ -67,6 +67,7 @@ Back-office:
          Version:
            ☐ edit model(Using the ACE Editor) @high
            ☐ Model validation in the editor
+           ☐ import an image to associate with the Model
            ☐ Get the actions dispatcher actions to validate the SCXML along with the XSD
            ☐ seal version @high
            ☐ get info @high

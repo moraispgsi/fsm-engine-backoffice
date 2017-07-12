@@ -16,7 +16,7 @@ class Login extends React.Component {
           <p className="login-box-msg">Sign in to start your session</p>
           <form action="../../index2.html" method="post">
             <div className="form-group has-feedback">
-              <input type="text" className="form-control" placeholder="Orquestration server URL" />
+              <input type="text" className="form-control" placeholder="Orchestration server URL" />
               <span className="glyphicon glyphicon-globe form-control-feedback" />
             </div>
             <div className="form-group has-feedback">

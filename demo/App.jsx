@@ -80,10 +80,11 @@ class App extends React.Component {
           <Sidebar.Menu.Item
             icon={{ className: 'fa-globe' }}
             onClick={() => pickTheme('skin-black')}
-            title="Dispatcher ACE.js"
+            title="Dispatcher INSTICC"
           >
-            <Sidebar.Menu.Item title="http://insticc.org/cms" icon={{ className: 'fa-hashtag' }} />
-            <Sidebar.Menu.Item title="http://insticc.org/ddm" icon={{ className: 'fa-hashtag' }} />
+            <Sidebar.Menu.Item title="CMS" icon={{ className: 'fa-hashtag' }} />
+            <Sidebar.Menu.Item title="DDM" icon={{ className: 'fa-hashtag' }} />
+            <Sidebar.Menu.Item title="HERMES" icon={{ className: 'fa-hashtag' }} />
           </Sidebar.Menu.Item>
         </Sidebar.Menu.Item>
       </Sidebar.Menu>,

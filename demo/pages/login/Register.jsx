@@ -16,6 +16,10 @@ class Register extends React.Component {
           <p className="login-box-msg">Register a new membership</p>
           <form action="../../index.html" method="post">
             <div className="form-group has-feedback">
+              <input type="text" className="form-control" placeholder="Orchestration server URL" />
+              <span className="glyphicon glyphicon-globe form-control-feedback" />
+            </div>
+            <div className="form-group has-feedback">
               <input type="text" className="form-control" placeholder="Full name" />
               <span className="glyphicon glyphicon-user form-control-feedback" />
             </div>
@@ -34,9 +38,8 @@ class Register extends React.Component {
             <div className="row">
               <div className="col-xs-8">
                 <div className="checkbox icheck">
-                  <label htmlFor="agreement">
-                    <input id="agreement" type="checkbox" /> I agree to the <a href="">terms</a>
-                  </label>
+                  <label htmlFor="rememberme" />
+                  <input style={{ marginLeft: 0, position: 'static' }} id="rememberme" type="checkbox" /> Remember Me
                 </div>
               </div>
               <div className="col-xs-4">
