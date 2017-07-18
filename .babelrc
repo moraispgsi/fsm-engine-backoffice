@@ -1,21 +1,3 @@
 {
-  "presets": [
-    "latest",
-    "react"
-  ],
-  "plugins": [
-    [
-      "transform-react-remove-prop-types",
-      {
-        "mode": "wrap"
-      }
-    ]
-  ],
-  "env": {
-    "start": {
-      "presets": [
-        "react-hmre"
-      ]
-    }
-  }
+  "presets": ["es2015", "stage-0", "react"]
 }

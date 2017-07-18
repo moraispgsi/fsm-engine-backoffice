@@ -1,0 +1,301 @@
+exports[`<Header /> renders correctly with collapsed option 1`] = `
+<header
+  className="Sdzae">
+  <a
+    className="cykMTm"
+    href="/"
+    name="navbar-logo">
+    <span
+      className="ibQovi"
+      name="navbar-logo-lg">
+      <span>
+        <b>
+          Admin
+        </b>
+        LTE
+      </span>
+    </span>
+    <span
+      className="hboVZB"
+      name="navbar-logo-sm">
+      <span>
+        <b>
+          A
+        </b>
+        LT
+      </span>
+    </span>
+  </a>
+  <nav
+    className="kHaBoX">
+    <button
+      className="fa fa-bars iXEfD"
+      name="sidebar-toggle"
+      onClick={[Function]} />
+    <div
+      className="cTsgzF">
+      <ul
+        className="bAXwxe"
+        name="navbar-menu-wrapper" />
+    </div>
+  </nav>
+</header>
+`;
+
+exports[`<Header /> renders correctly with default options 1`] = `
+<header
+  className="Sdzae">
+  <a
+    className="cykMTm"
+    href="/"
+    name="navbar-logo">
+    <span
+      className="ibQovi"
+      name="navbar-logo-lg">
+      <span>
+        <b>
+          Admin
+        </b>
+        LTE
+      </span>
+    </span>
+    <span
+      className="hboVZB"
+      name="navbar-logo-sm">
+      <span>
+        <b>
+          A
+        </b>
+        LT
+      </span>
+    </span>
+  </a>
+  <nav
+    className="kHaBoX">
+    <button
+      className="fa fa-bars iXEfD"
+      name="sidebar-toggle"
+      onClick={[Function]} />
+    <div
+      className="cTsgzF">
+      <ul
+        className="bAXwxe"
+        name="navbar-menu-wrapper" />
+    </div>
+  </nav>
+</header>
+`;
+
+exports[`<Header /> renders correctly with fixed and collapsed options 1`] = `
+<header
+  className="glmcVm">
+  <a
+    className="cykMTm"
+    href="/"
+    name="navbar-logo">
+    <span
+      className="ibQovi"
+      name="navbar-logo-lg">
+      <span>
+        <b>
+          Admin
+        </b>
+        LTE
+      </span>
+    </span>
+    <span
+      className="hboVZB"
+      name="navbar-logo-sm">
+      <span>
+        <b>
+          A
+        </b>
+        LT
+      </span>
+    </span>
+  </a>
+  <nav
+    className="kHaBoX">
+    <button
+      className="fa fa-bars iXEfD"
+      name="sidebar-toggle"
+      onClick={[Function]} />
+    <div
+      className="cTsgzF">
+      <ul
+        className="bAXwxe"
+        name="navbar-menu-wrapper" />
+    </div>
+  </nav>
+</header>
+`;
+
+exports[`<Header /> renders correctly with fixed option 1`] = `
+<header
+  className="glmcVm">
+  <a
+    className="cykMTm"
+    href="/"
+    name="navbar-logo">
+    <span
+      className="ibQovi"
+      name="navbar-logo-lg">
+      <span>
+        <b>
+          Admin
+        </b>
+        LTE
+      </span>
+    </span>
+    <span
+      className="hboVZB"
+      name="navbar-logo-sm">
+      <span>
+        <b>
+          A
+        </b>
+        LT
+      </span>
+    </span>
+  </a>
+  <nav
+    className="kHaBoX">
+    <button
+      className="fa fa-bars iXEfD"
+      name="sidebar-toggle"
+      onClick={[Function]} />
+    <div
+      className="cTsgzF">
+      <ul
+        className="bAXwxe"
+        name="navbar-menu-wrapper" />
+    </div>
+  </nav>
+</header>
+`;
+
+exports[`<Header /> renders correctly with given large logo 1`] = `
+<header
+  className="Sdzae">
+  <a
+    className="cykMTm"
+    href="/"
+    name="navbar-logo">
+    <span
+      className="ibQovi"
+      name="navbar-logo-lg">
+      <span>
+        Large
+      </span>
+    </span>
+    <span
+      className="hboVZB"
+      name="navbar-logo-sm">
+      <span>
+        <b>
+          A
+        </b>
+        LT
+      </span>
+    </span>
+  </a>
+  <nav
+    className="kHaBoX">
+    <button
+      className="fa fa-bars iXEfD"
+      name="sidebar-toggle"
+      onClick={[Function]} />
+    <div
+      className="cTsgzF">
+      <ul
+        className="bAXwxe"
+        name="navbar-menu-wrapper" />
+    </div>
+  </nav>
+</header>
+`;
+
+exports[`<Header /> renders correctly with given small logo 1`] = `
+<header
+  className="Sdzae">
+  <a
+    className="cykMTm"
+    href="/"
+    name="navbar-logo">
+    <span
+      className="ibQovi"
+      name="navbar-logo-lg">
+      <span>
+        <b>
+          Admin
+        </b>
+        LTE
+      </span>
+    </span>
+    <span
+      className="hboVZB"
+      name="navbar-logo-sm">
+      <span>
+        Small
+      </span>
+    </span>
+  </a>
+  <nav
+    className="kHaBoX">
+    <button
+      className="fa fa-bars iXEfD"
+      name="sidebar-toggle"
+      onClick={[Function]} />
+    <div
+      className="cTsgzF">
+      <ul
+        className="bAXwxe"
+        name="navbar-menu-wrapper" />
+    </div>
+  </nav>
+</header>
+`;
+
+exports[`<Header /> renders correctly with theme 1`] = `
+<header
+  className="Sdzae">
+  <a
+    className="dXzCJS"
+    href="/"
+    name="navbar-logo">
+    <span
+      className="ibQovi"
+      name="navbar-logo-lg">
+      <span>
+        <b>
+          Admin
+        </b>
+        LTE
+      </span>
+    </span>
+    <span
+      className="hboVZB"
+      name="navbar-logo-sm">
+      <span>
+        <b>
+          A
+        </b>
+        LT
+      </span>
+    </span>
+  </a>
+  <nav
+    className="rOyox">
+    <button
+      className="fa fa-bars jatJFQ"
+      name="sidebar-toggle"
+      onClick={[Function]} />
+    <div
+      className="cTsgzF">
+      <ul
+        className="bAXwxe"
+        name="navbar-menu-wrapper" />
+    </div>
+  </nav>
+</header>
+`;

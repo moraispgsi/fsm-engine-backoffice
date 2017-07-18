@@ -1,0 +1,1101 @@
+exports[`<Dashboard /> renders correctly with black theme 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="dKNVKA">
+    <a
+      className="gmrfSu"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="kHaBoX">
+      <button
+        className="fa fa-bars fIoQlD"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="dDcugc">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="jinfUS"
+    name="content-wrapper" />
+  <footer
+    className="iRrCnw" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with black-light theme 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="dKNVKA">
+    <a
+      className="gmrfSu"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="kHaBoX">
+      <button
+        className="fa fa-bars fIoQlD"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="diPORJ">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="gnzgiC"
+    name="content-wrapper" />
+  <footer
+    className="tiBAO" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with blue theme 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="Sdzae">
+    <a
+      className="Mdmhi"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="cPKxdA">
+      <button
+        className="fa fa-bars eNPEzI"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="dDcugc">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="jinfUS"
+    name="content-wrapper" />
+  <footer
+    className="iRrCnw" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with blue-light theme 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="Sdzae">
+    <a
+      className="Mdmhi"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="cPKxdA">
+      <button
+        className="fa fa-bars eNPEzI"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="diPORJ">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="gnzgiC"
+    name="content-wrapper" />
+  <footer
+    className="tiBAO" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with fixed and sidebarMini options 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="glmcVm">
+    <a
+      className="Mdmhi"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="cPKxdA">
+      <button
+        className="fa fa-bars eNPEzI"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="jnoTwF">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="drFMkG"
+    name="content-wrapper" />
+  <footer
+    className="iRrCnw" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with fixed option 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="glmcVm">
+    <a
+      className="Mdmhi"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="cPKxdA">
+      <button
+        className="fa fa-bars eNPEzI"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="jnoTwF">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="drFMkG"
+    name="content-wrapper" />
+  <footer
+    className="iRrCnw" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with fixed, initialCollapse, and sidebarMini options 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="glmcVm">
+    <a
+      className="dcCjbj"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="gdnkfC"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="bgyKpT"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="haKxdF">
+      <button
+        className="fa fa-bars eNPEzI"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="hwJubO">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="bKmtkn"
+    name="content-wrapper" />
+  <footer
+    className="cgYtLz" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with green theme 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="Sdzae">
+    <a
+      className="bfsaBT"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="gcPMli">
+      <button
+        className="fa fa-bars biMfWR"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="dDcugc">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="jinfUS"
+    name="content-wrapper" />
+  <footer
+    className="iRrCnw" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with green-light theme 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="Sdzae">
+    <a
+      className="bfsaBT"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="gcPMli">
+      <button
+        className="fa fa-bars biMfWR"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="diPORJ">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="gnzgiC"
+    name="content-wrapper" />
+  <footer
+    className="tiBAO" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with initialCollapse and sidebarMini options 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="Sdzae">
+    <a
+      className="dcCjbj"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="gdnkfC"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="bgyKpT"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="haKxdF">
+      <button
+        className="fa fa-bars eNPEzI"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="lpcQgQ">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="kqnetR"
+    name="content-wrapper" />
+  <footer
+    className="cgYtLz" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with initialCollapse option 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="Sdzae">
+    <a
+      className="Mdmhi"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="cPKxdA">
+      <button
+        className="fa fa-bars eNPEzI"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="bjqzmX">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="bHreLo"
+    name="content-wrapper" />
+  <footer
+    className="dOICQB" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with no options 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="Sdzae">
+    <a
+      className="Mdmhi"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="cPKxdA">
+      <button
+        className="fa fa-bars eNPEzI"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="dDcugc">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="jinfUS"
+    name="content-wrapper" />
+  <footer
+    className="iRrCnw" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with purple theme 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="Sdzae">
+    <a
+      className="fiPoix"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="kwFmkS">
+      <button
+        className="fa fa-bars btgbpw"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="dDcugc">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="jinfUS"
+    name="content-wrapper" />
+  <footer
+    className="iRrCnw" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with purple-light theme 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="Sdzae">
+    <a
+      className="fiPoix"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="kwFmkS">
+      <button
+        className="fa fa-bars btgbpw"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="diPORJ">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="gnzgiC"
+    name="content-wrapper" />
+  <footer
+    className="tiBAO" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with red theme 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="Sdzae">
+    <a
+      className="dXzCJS"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="rOyox">
+      <button
+        className="fa fa-bars jatJFQ"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="dDcugc">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="jinfUS"
+    name="content-wrapper" />
+  <footer
+    className="iRrCnw" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with red-light theme 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="Sdzae">
+    <a
+      className="dXzCJS"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="rOyox">
+      <button
+        className="fa fa-bars jatJFQ"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="diPORJ">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="gnzgiC"
+    name="content-wrapper" />
+  <footer
+    className="tiBAO" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with sidebarMini option 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="Sdzae">
+    <a
+      className="Mdmhi"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="cPKxdA">
+      <button
+        className="fa fa-bars eNPEzI"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="dDcugc">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="jinfUS"
+    name="content-wrapper" />
+  <footer
+    className="iRrCnw" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with yellow theme 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="Sdzae">
+    <a
+      className="imQolJ"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="fccBMc">
+      <button
+        className="fa fa-bars gQqvlC"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="dDcugc">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="jinfUS"
+    name="content-wrapper" />
+  <footer
+    className="iRrCnw" />
+</div>
+`;
+
+exports[`<Dashboard /> renders correctly with yellow-light theme 1`] = `
+<div
+  className="jYCcpo">
+  <header
+    className="Sdzae">
+    <a
+      className="imQolJ"
+      href="/"
+      name="navbar-logo">
+      <span
+        className="ibQovi"
+        name="navbar-logo-lg">
+        <span>
+          <b>
+            Admin
+          </b>
+          LTE
+        </span>
+      </span>
+      <span
+        className="hboVZB"
+        name="navbar-logo-sm">
+        <span>
+          <b>
+            A
+          </b>
+          LT
+        </span>
+      </span>
+    </a>
+    <nav
+      className="fccBMc">
+      <button
+        className="fa fa-bars gQqvlC"
+        name="sidebar-toggle"
+        onClick={[Function]} />
+      <div
+        className="cTsgzF">
+        <ul
+          className="bAXwxe"
+          name="navbar-menu-wrapper" />
+      </div>
+    </nav>
+  </header>
+  <aside
+    className="diPORJ">
+    <section
+      className="hZXMYD"
+      name="sidebar-wrapper" />
+  </aside>
+  <div
+    className="gnzgiC"
+    name="content-wrapper" />
+  <footer
+    className="tiBAO" />
+</div>
+`;
