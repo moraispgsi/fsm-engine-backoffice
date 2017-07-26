@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="600e1a78-0cca-40d7-a247-0be3394b2ee0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/Keynote.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/server/HistoryView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/server/InstanceView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/server/MachineView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/server/MainPanel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/server/ModelViewer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/server/Settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/server/SnapshotView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/server/TreeView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/server/VersionView.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/styles/plugins/sweetalert2/sweetalert2.min.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/Main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/Minor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/style.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/common/Footer.js" afterPath="$PROJECT_DIR$/app/components/common/Footer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/common/Navigation.js" afterPath="$PROJECT_DIR$/app/components/common/Navigation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routes.js" afterPath="$PROJECT_DIR$/app/config/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.js" afterPath="$PROJECT_DIR$/app/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/server/ViewServer.js" afterPath="$PROJECT_DIR$/app/views/server/ViewServer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.production.js" afterPath="$PROJECT_DIR$/webpack.config.production.js" />
-    </list>
+    <list default="true" id="600e1a78-0cca-40d7-a247-0be3394b2ee0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -647,12 +621,20 @@
       <workItem from="1500233142218" duration="32484000" />
       <workItem from="1500381744369" duration="690000" />
       <workItem from="1500400150194" duration="113216000" />
-      <workItem from="1501077526416" duration="1284000" />
+      <workItem from="1501077526416" duration="1642000" />
     </task>
+    <task id="LOCAL-00001" summary="New backoffice">
+      <created>1501082474230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1501082474230</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147674000" />
+    <option name="totallyTimeSpent" value="148032000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -681,6 +663,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New backoffice" />
+    <option name="LAST_COMMIT_MESSAGE" value="New backoffice" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -870,6 +856,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -940,6 +927,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -954,6 +942,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -961,6 +950,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -989,6 +979,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1832">
           <caret line="1569" column="11" lean-forward="false" selection-start-line="1569" selection-start-column="4" selection-end-line="1569" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -996,6 +987,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,6 +995,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,6 +1005,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <folding>
+            <element signature="e#53#79#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1017,6 +1015,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,6 +1023,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,6 +1031,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1500987755718" expanded="true" signature="328:544" ph="&lt;Router/&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
