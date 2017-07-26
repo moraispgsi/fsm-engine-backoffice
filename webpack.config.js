@@ -25,7 +25,6 @@ var config = {
             'jQuery': "jquery",
             'window.jQuery': "jquery",
             'window.$': 'jquery'
-
         }),
         new webpack.optimize.CommonsChunkPlugin('vendor', 'vendor.js', Infinity),
         new webpack.DefinePlugin({

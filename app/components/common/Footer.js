@@ -5,10 +5,11 @@ class Footer extends React.Component {
         return (
             <div className="footer">
                 <div className="pull-right">
-                    10GB of <strong>250GB</strong> Free.
+                  <a href="https://github.com/moraispgsi/fsm-engine">
+                    <i className="fa fa-github fa-2x"/></a>
                 </div>
                 <div>
-                    <strong>Copyright</strong> Example Company &copy; 2015-2017
+                    <strong>Copyright</strong> INSTICC &copy; {new Date().getFullYear()}
                 </div>
             </div>
         )

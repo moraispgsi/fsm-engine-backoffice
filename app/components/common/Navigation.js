@@ -1,65 +1,65 @@
-import React, { Component } from 'react';
-import { Dropdown } from 'react-bootstrap';
-import { Link, Location } from 'react-router';
+import React, {Component} from 'react';
+import {Dropdown} from 'react-bootstrap';
+import {Link, Location} from 'react-router';
 
 class Navigation extends Component {
 
-    componentDidMount() {
-        const { menu } = this.refs;
-        $(menu).metisMenu();
-    }
+	componentDidMount() {
+		const {menu} = this.refs;
+		$(menu).metisMenu();
+	}
 
-    activeRoute(routeName) {
-        return this.props.location.pathname.indexOf(routeName) > -1 ? "active" : "";
-    }
+	activeRoute(routeName) {
+		return this.props.location.pathname.indexOf(routeName) > -1 ? "active" : "";
+	}
 
-    secondLevelActive(routeName) {
-        return this.props.location.pathname.indexOf(routeName) > -1 ? "nav nav-second-level collapse in" : "nav nav-second-level collapse";
-    }
+	secondLevelActive(routeName) {
+		return this.props.location.pathname.indexOf(routeName) > -1 ? "nav nav-second-level collapse in" : "nav nav-second-level collapse";
+	}
 
-    render() {
-        return (
-            <nav className="navbar-default navbar-static-side" role="navigation">
-                    <ul className="nav metismenu" id="side-menu" ref="menu">
-                        <li className="nav-header">
-                            <div className="dropdown profile-element"> <span>
+	render() {
+		return (
+				<nav className="navbar-default navbar-static-side" role="navigation">
+					<ul className="nav metismenu" id="side-menu" ref="menu">
+						<li className="nav-header">
+							<div className="dropdown profile-element"> <span>
                              </span>
-                                <a data-toggle="dropdown" className="dropdown-toggle" href="#">
-                            <span className="clear"> <span className="block m-t-xs"> <strong className="font-bold">Example user</strong>
-                             </span> <span className="text-muted text-xs block">Example position<b className="caret"></b></span> </span> </a>
-                                <ul className="dropdown-menu animated fadeInRight m-t-xs">
-                                    <li><a href="#"> Logout</a></li>
-                                </ul>
-                            </div>
-                            <div className="logo-element">
-                                IN+
-                            </div>
-                        </li>
-                        <li className={this.activeRoute("/server")}>
-                            <a href="#">
-                                <i className="fa fa-sitemap" />
-                                <span className="nav-label">Menu Levels </span>
-                                <span className="fa arrow"/>
-                            </a>
-                            <ul className="nav nav-second-level">
-                                <li className={this.activeRoute("/server2")}>
-                                    <Link to="/"><i className="fa fa-server"></i>
-                                        <span className="nav-label">Server</span></Link>
-                                </li>
-                            </ul>
+								<a data-toggle="dropdown" className="dropdown-toggle" href="#">
+                            <span className="clear"> <span className="block m-t-xs"> <strong className="font-bold">Ricardo Morais</strong>
+                             </span> <span className="text-muted text-xs block">Administrator
+															<strong className="caret"></strong></span> </span> </a>
+								<ul className="dropdown-menu animated fadeInRight m-t-xs">
+									<li><a href="#"> Logout</a></li>
+								</ul>
+							</div>
+							<div className="logo-element">
+								SC+
+							</div>
+						</li>
+						<li className={this.activeRoute("/server")}>
+							<a href="#">
+								<i className="fa fa-server"/>
+								<span className="nav-label">Servers</span>
+								<span className="fa arrow"/>
+							</a>
+							<ul className="nav nav-second-level">
+								<li className={this.activeRoute("/server1")}>
+									<Link to="/server"><i className="fa fa-globe"></i>
+										<span className="nav-label">INSTICC One</span></Link>
+								</li>
+								<li className={this.activeRoute("/server2")}>
+									<Link to="/server"><i className="fa fa-globe"></i>
+										<span className="nav-label">INSTICC Two</span></Link>
+								</li>
+							</ul>
 
-                        </li>
-                        <li className={this.activeRoute("/main")}>
-                            <Link to="/main"><i className="fa fa-th-large"></i> <span className="nav-label">Main view</span></Link>
-                        </li>
-                        <li className={this.activeRoute("/minor")}>
-                            <Link to="/minor"><i className="fa fa-th-large"></i> <span className="nav-label">Minor view</span></Link>
-                        </li>
-                    </ul>
+						</li>
 
-            </nav>
-        )
-    }
+					</ul>
+
+				</nav>
+		)
+	}
 }
 
 export default Navigation
