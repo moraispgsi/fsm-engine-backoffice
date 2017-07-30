@@ -22,8 +22,8 @@ class ViewServer extends React.Component {
 			},
 			server: {
 				name: 'INSTICC One',
-				url: 'https://fsm-engine-restful.herokuapp.com',
-				token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjV9.QATcY5dtECmrKg46CsnyCv2g9dY-BpC9VYQ7lQ3al9M',
+				url: 'http://213.228.151.36:3011',
+				token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTB9.pEmirmwCl8E-cext0Tcqy1DJFerSpOm1nZPdotSWalE',
 				dispatcher: {
 					name: 'INSTICC',
 					url: 'http://www.INSTICC.org/ace-dispatcher'
